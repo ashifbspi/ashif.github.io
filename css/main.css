@@ -1,0 +1,228 @@
+* {
+    outline: none !important;
+}
+
+.navbar-nav {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 0.5px 0.3px 0.6px black;
+}
+
+.navbar-nav:last-child {
+    color: black !important;
+}
+
+.navbar-collapse {
+  justify-content: center;
+}
+
+#home_area {
+    /* background: linear-gradient(to bottom, rgba(26, 54, 54, 0.9), rgba(63, 108, 131, 0.5)), url("https://wallpaperaccess.com/full/1615863.jpg") no-repeat center center/cover; */
+    background: url("../images/1.jpeg") no-repeat center center/cover;
+    color: #FFBF78;
+    padding: 50px 0 0 10px;
+    display: flex;
+    justify-content: flex-start;
+    min-height: 100vh;
+}
+
+.content-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.text-container {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.main-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 0.5px 0.3px 0.6px black;
+}
+
+.sub-heading {
+    font-size: 2.5rem;
+    margin: 10px 0;
+    text-shadow: 0.5px 0.3px 0.6px black;
+}
+
+.description {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #f5f5f5;
+    text-shadow: 0.5px 0.3px 0.6px black;
+}
+
+.contact-me {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.content-wrapper .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: 30px;
+    padding: 0 10px;
+    font-size: 0.8rem;
+    color: #1A3636;
+    background-color: #FFBF78;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.question-text {
+    font-size: 0.824rem;
+    text-shadow: 0.5px 0.3px 0.6px black;
+}
+
+.content-wrapper .btn:hover {
+    background-color: #1A3636;
+    color: #FFBF78;
+    border: 2px solid #FFBF78;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border-radius: 5px;
+    width: 450px;
+    height: 600px;
+    background: linear-gradient(to bottom, rgba(26, 54, 54, 0.3), rgba(63, 108, 131, 0.3)), url("./images/img-bg.png") center / cover no-repeat;
+}
+
+.profile-image {
+    width: 360px;
+    height: max-content;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+.flaticon-mortarboard {
+    width: 32px;
+    height: 32px;
+}
+
+.flaticon-employee {
+    width: 32px;
+    height: 32px;
+}
+
+
+.profile-container {
+    background-color: transparent;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.profile-container h5 {
+    text-align: center;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+.profile-header img {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+.profile-details {
+    font-size: 1rem;
+}
+.profile-details span {
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+
+    #home_area {
+    padding: 0 0 0 10px;
+    display: flex;
+    justify-content: flex-start;
+    min-height: 30vh;
+    }
+
+    .content-wrapper {
+        flex-direction: column-reverse;
+        text-align: left;
+        margin-top: 40px;
+        gap: 10px;
+    }
+
+    .text-container {
+        margin: 30px;
+        width: 100%;
+    }
+
+    .main-heading {
+        font-size: 1.5rem;
+    }
+
+    .sub-heading {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    .description {
+        font-size: 0.8rem;
+        margin: 0;
+    }
+
+    .question-text {
+        font-size: 0.8rem;
+    }
+
+    .image-container {
+        width: 250px;
+        height: 300px;
+        background: "./images/img-bg.png";
+    }
+
+    .profile-image {
+        width: 80%;
+        max-width: 180px;
+        margin: 0;
+    }
+
+    .content-wrapper .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        width: 25%;
+        height: 30px;
+        border-radius: 2px;
+        font-size: 0.7rem;
+    }
+}
+

@@ -1,0 +1,73 @@
+/* Styles for Vision & Mission Page */
+
+body {
+    background: linear-gradient(to bottom, rgba(26, 54, 54, 0.5), rgba(63, 108, 131, 0.5)), url("https://wallpaperaccess.com/full/1615863.jpg") no-repeat center center/cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.navbar-nav {
+    text-align: left !important;
+}
+
+.vision-mission-section {
+    padding: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #035686;
+    margin-bottom: 15px;
+}
+
+.details-container {
+    margin-bottom: 30px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: black !important;
+}
+
+.navbar-nav a {
+    color: #fff !important;
+}
+
+.navbar-nav .nav-item:nth-child(4) a {
+    color: #DBA979 !important;
+}
+
+footer  {
+    text-shadow: 1px 0.6px 0.6px #000;   
+    color: #fff;
+}
+
+footer a {
+    text-shadow: 1px 0.6px 0.6px #000;
+    color: #eadb0b !important;
+}
+
+
+@media (max-width: 768px) {
+    .vision-mission-section {
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
